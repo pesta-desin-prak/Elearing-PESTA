@@ -1,0 +1,95 @@
+.detail-add-date{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.detail-add-schedule{
+    flex: 1;
+}
+
+.detail-add-due{
+    flex: 1;
+}
+
+.detail-add-due, .detail-add-schedule, .detail-add-classes{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 35px;
+}
+
+.detail-add-due-header, .detail-add-schedule-header, .detail-add-classes-header{
+    background-color: #FF8E3C;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px 14px 10px 14px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detail-add-schedule-content, .detail-add-due-content{
+    display: flex;
+    justify-content: center;
+}
+
+.detail-add-classes-content{
+    padding: 20px 21px 20px 21px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+.detail-add-classes-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-add-classes-item label{
+    font-weight: bold;
+}
+
+.detail-add-classes-item img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 5px solid black;
+    margin-bottom: 10px;
+}
+
+.reminder-me label{
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.react-calendar {
+    border: none; 
+    margin-bottom: 20px;
+}
+  
+.react-calendar__month-view,.react-calendar__year-view,.react-calendar__decade-view {
+    border: none; 
+}
+
+.react-calendar__tile {
+    border: none; 
+    font-size: 14px;
+}
+
+.react-calendar__tile--active, .react-calendar__tile--hover {
+    border-radius: 100%; 
+}
+
+.react-calendar__month-view__days{
+    row-gap: 20px;
+}
+
+
+@media (max-width: 1200px) {
+    .detail-add-date {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

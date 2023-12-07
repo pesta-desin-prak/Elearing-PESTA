@@ -1,0 +1,111 @@
+.title-class{
+    display: flex;
+    flex-direction: row;
+}
+
+.pageAssignment-title{
+    flex: 1;
+}
+
+.class-detail{
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.class-header{
+    background-color: #FF8E3C;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px 14px 10px 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.button-discussion{
+    background-color: #058ED9;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 8px 17px 8px 17px;
+    height: 46px;
+    width: 117px;
+    font-size: 20px;
+}
+
+.button-discussion:hover{
+    background-color:#454545;
+    color: white;
+
+}
+
+.popup{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    padding: 10px 24px 10px 15px;
+    right: 102px;
+    top: 209px;
+    font-weight: bold;
+    color: #058ED9;
+}
+
+.popup p:hover{
+    color:#454545;
+}
+
+.class-list{
+    margin: 25px 30px 25px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-item{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 33px;
+    padding: 10px 64px 10px 26px;
+}
+
+.class-text{
+    padding-top: 20px;
+}
+
+.class-deadline{
+    padding-top: 30px;
+}
+
+.images-img{
+    margin-right: 27px;
+}
+
+.images-item{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.images-discussion{
+    width: 75px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.class-discussion{
+    padding-top: 15px;
+}
+
+@media (max-width: 900px) {
+    .class-deadline,.class-discussion,.images-img{
+        padding-top: 20px;
+    }
+    .images-item{
+        display: none;
+    }
+
+}
