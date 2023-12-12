@@ -11,7 +11,9 @@ import InputMaterial from './InputMaterial';
 import DetailInput from './DetailInput';
 import AssignmentStudent from './AssignmentStudent';
 import ViewStudent from './ViewStudent';
+import KolomDiskusi from './kolomDiskusi';
 import Login from './Login';
+
 import './dashboard.css'
 
 
@@ -68,6 +70,7 @@ function App() {
           <div>
             <Header username={username} />
           </div>
+          
         </>
       )}
 
@@ -83,7 +86,8 @@ function App() {
           <Route exact path="/assignment/add-material" element={<InputMaterial />} />
           <Route exact path="/assignment/view-assignment" element={<ViewAssignment />} />
           <Route exact path="/assignment/detail-add-assignment" element={<DetailInput />} />
-          <Route exact path="/discussion" element={<Assignment />} />
+          <Route exact path="/discussion" element={<KolomDiskusi />} />
+          {/* <Route exact path="/discussion/kolomDiskusi" element={<kolomDiskusi />}/> */}
         </Routes>
       </Router>
     </>
