@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./kolomDiskusi.css";
+import { Plus,Smile, Send } from "react-feather";
 
 function Content() {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -80,7 +81,12 @@ function Content() {
           </div>
 
           <div className="wrappedInput">
-              <div className="textInput">lorem</div>
+            <div className="textInput">
+              <Smile></Smile>
+              <Plus></Plus>
+              <input type="text" />
+              <Send></Send>
+            </div>
           </div>
         </div>
       </div>
