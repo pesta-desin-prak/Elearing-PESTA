@@ -51,11 +51,36 @@ function Content() {
       <div className="rightbox">
         <div className="rightHeader">Tugas 3</div>
         <div className="rightMain">
-          <div className="chat1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            laboriosam voluptatibus, quo in quam facere sit sequi ut quia
-            explicabo illo. Architecto quisquam deleniti aliquam alias iste est
-            reprehenderit repellat?
+          <div className="time">
+            <div className="waktuChat">07.26</div>
+          </div>
+          {/* <div className="bubblechat">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          </div> */}
+          <div class="speech-wrapper">
+            <div class="bubble">
+              <div class="txt1">
+                <p class="name">Bu siti Guru</p>
+                <p class="message">Pagi, Bolo..</p>
+                <span class="timestamp">10:20 pm</span>
+              </div>
+              <div class="bubble-arrow"></div>
+            </div>
+            {/* <!--  Speech Bubble alternative --> */}
+            <div class="bubble alt">
+              <div class="txt2">
+                <p class="name alt">
+                  {/* +353 87 1234 567<span> ~ John</span> */}
+                </p>
+                <p class="message">pagi juga bolooo</p>
+                <span class="timestamp">10:22 pm</span>
+              </div>
+              <div class="bubble-arrow alt"></div>
+            </div>
+          </div>
+
+          <div className="wrappedInput">
+              <div className="textInput">lorem</div>
           </div>
         </div>
       </div>
