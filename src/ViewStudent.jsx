@@ -89,6 +89,18 @@ function Content(){
                             <input id="fileInput" type="file"  onChange={handleFileInputChange}/>
                         </div>
                     </div>
+                    
+                    {/* after the file is selected */}
+                    <div className='assignment-buttons'>
+                        <Link to="/student/assignment/view/detail">
+                            <button className='assignment-button'>
+                                Save
+                            </button>
+                        </Link>
+                        <button className='assignment-button'>
+                            Cancel
+                        </button>
+                    </div>
 
                 </div>
 

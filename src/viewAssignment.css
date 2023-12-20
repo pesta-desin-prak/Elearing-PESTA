@@ -6,7 +6,7 @@
 }
 
 .view-detail{
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .view-detail-description{
@@ -24,17 +24,23 @@
     margin-bottom: 20px;
 }
 
+.file-submissions{
+    margin-bottom: 30px;
+}
+
 .view-btn{
     text-align: center;
 }
 
 .button-view{
     background-color: #058ED9;
+    width: 80px;
+    height: 30px;
     font-weight: bold;
     border: none;
     color: white;
-    padding: 8px 65px 8px 65px;
-    font-size: 28px;
+    /* padding: 8px 65px 8px 65px; */
+    /* font-size: 28px; */
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
 

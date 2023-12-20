@@ -5,12 +5,13 @@ import './viewAssignment.css'
 
 
 function Content(){
+
     return(
         <>
             <div className='content-container'>
                 <div className='view-content'>
                     <div className='title-class'>
-                        <h1 style={{ color:'#058ED9' }}><Link to='/teacher' style={{ textDecoration:'none', color:'#058ED9'}}>Project UTS Math</Link></h1>
+                        <h1 style={{ color:'#058ED9' }}><Link to='/student' style={{ textDecoration:'none', color:'#058ED9'}}>Project UTS Math</Link></h1>
                     </div>
 
                     <div className='view-description'>
@@ -20,7 +21,7 @@ function Content(){
                     <div className='view-detail'>
                         <div className='view-detail-title'>Attached Files: <u>template_penugasan.docx</u></div>
                         <div className='view-detail-description'>
-                            <p>Submission Status: 28/32</p>
+                            <p>Submission Status: <p style={'color: #00FF0A;'}>Submitted</p></p>
                             <p>Due Date: Sunday, 18 Oktober 2023, 11:59 PM</p>
                             <p>Time Remaining: 1 days</p>
                         </div>
@@ -31,7 +32,7 @@ function Content(){
                     </div>
 
                     <div className='view-btn'>
-                        <Link to="/assignment/add-assignment"><button className='button-view'>Edit</button></Link>
+                        <Link to="/student/assignment/view"><button className='button-view'>Edit</button></Link>
                     </div>
 
                 </div>
@@ -42,7 +43,7 @@ function Content(){
     )
 }
 
-function ViewAssignment(){
+function Detail(){
     return (
         <div>
           <Content/>
@@ -50,4 +51,4 @@ function ViewAssignment(){
     )
 }
 
-export default ViewAssignment
+export default Detail
