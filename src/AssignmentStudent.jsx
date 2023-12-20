@@ -11,6 +11,10 @@ function Content(){
         <div className='title-class'>
             <h1 className='pageAssignment-title' style={{ color:'#058ED9' }}><Link to='/student' style={{ textDecoration:'none', color:'#058ED9' }}>Mathematics</Link></h1>
         </div>
+        <nav>
+        <Link to = "/">Home</Link>
+        <Link to = "/student">Dashboard</Link>
+        </nav>
 
         <div className='class-detail'>
             <div className='class-header'>Assignment Detail</div>

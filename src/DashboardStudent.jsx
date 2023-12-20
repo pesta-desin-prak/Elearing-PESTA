@@ -7,7 +7,10 @@ function Content(){
   return (
     <div className='content-container'>
       <h1 className='page-title' style={{ color:'#058ED9' }}>Dashboard</h1>
-
+      <nav>
+      <Link to = "/">Home</Link>
+      <Link to = "/student">Dashboard</Link>
+      </nav>
       <div className='content-layout'>
         <div className='content-layout-1'>
           <div className='recently'>

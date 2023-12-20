@@ -19,8 +19,13 @@ function Content(){
                     <Link to="/assignment/add-assignment" style={{ textDecoration:'none' }}><p style={{marginBottom:'6px' }}>Add Assignment</p></Link>
                     <Link to="/assignment/add-material" style={{ textDecoration:'none' }}><p>Add Material</p></Link>
                 </div>
+
             )}
         </div>
+        <nav>
+        <Link to = "/">Home</Link>
+        <Link to = "/teacher">Dashboard</Link>
+        </nav>
 
         <div className='class-detail'>
             <div className='class-header'>Assignment Detail</div>

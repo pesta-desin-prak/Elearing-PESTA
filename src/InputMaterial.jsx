@@ -52,6 +52,12 @@ function Content(){
                     <div className='title-class'>
                         <h1 style={{ color:'#058ED9' }}>Add Material</h1>
                     </div>
+                    <nav>
+                    <Link to = "/">Home</Link>
+                    <Link to = "/teacher">Dashboard</Link>
+                    <Link to = "/assignment">Assignment</Link>
+                    <Link to = "/assignment/view-assignment">Project</Link>
+                    </nav>
                     <form action=''>
                     <div className='add-assignment-material-container'>
                         <div className='add-assignment-material-header'>Material Detail</div>
