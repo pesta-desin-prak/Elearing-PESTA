@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './viewAssignment.css'
 
 
-function Content(){
+function DetailAssignment(){
 
     return(
         <>
@@ -21,7 +21,7 @@ function Content(){
                     <div className='view-detail'>
                         <div className='view-detail-title'>Attached Files: <u>template_penugasan.docx</u></div>
                         <div className='view-detail-description'>
-                            <p>Submission Status: <p style={'color: #00FF0A;'}>Submitted</p></p>
+                            <p>Submission Status: Submitted</p>
                             <p>Due Date: Sunday, 18 Oktober 2023, 11:59 PM</p>
                             <p>Time Remaining: 1 days</p>
                         </div>
@@ -43,12 +43,4 @@ function Content(){
     )
 }
 
-function Detail(){
-    return (
-        <div>
-          <Content/>
-        </div>
-    )
-}
-
-export default Detail
+export default DetailAssignment;

@@ -6,7 +6,6 @@ import Dashboard from './Dashboard';
 import DashboardStudent from './DashboardStudent';
 import Assignment from './Assignment';
 import ViewAssignment from './ViewAssignment';
-import DetailStudentAssignment from './DetailStudentAssignment'
 import InputAssignment from './InputAssignment';
 import InputMaterial from './InputMaterial';
 import DetailInput from './DetailInput';
@@ -14,6 +13,7 @@ import AssignmentStudent from './AssignmentStudent';
 import ViewStudent from './ViewStudent';
 import Login from './Login';
 import './dashboard.css'
+import DetailAssignment from './DetailAssignment';
 
 function Header({ username }){
 
@@ -78,7 +78,7 @@ function App() {
           <Route exact path="/student" element={<DashboardStudent />} />
           <Route exact path="/student/assignment" element={<AssignmentStudent />} />
           <Route exact path="/student/assignment/view" element={<ViewStudent />} />
-          <Route exact path="/student/assignment/view/detail" element={<DetailStudentAssignment/>} />
+          <Route exact path="/student/assignment/view/detail" element={<DetailAssignment />} />
           <Route exact path="/assignment" element={<Assignment />} />
           <Route exact path="/assignment/add-assignment" element={<InputAssignment />} />
           <Route exact path="/assignment/add-material" element={<InputMaterial />} />
