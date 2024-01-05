@@ -1,0 +1,15 @@
+/* Navbar.css */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    width: 275px; /* Adjust width of the sidebar */
+    height: 100%;
+    background: white;
+    transition: left 0.3s;
+    /* Add other styles for your sidebar here */
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
