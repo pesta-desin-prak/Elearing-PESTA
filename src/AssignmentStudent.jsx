@@ -12,6 +12,10 @@ function Content(){
             <h1 className='pageAssignment-title' style={{ color:'#058ED9' }}><Link to='/student' style={{ textDecoration:'none', color:'#058ED9' }}>Mathematics</Link></h1>
         </div>
 
+        <nav>
+        <Link to = "/student">Dashboard</Link>
+        </nav>
+
         <div className='class-detail'>
             <div className='class-header'>Assignment Detail</div>
             <div className='class-list'>
@@ -30,10 +34,12 @@ function Content(){
                     <div className='class-deadline' style={{ flex:'2', fontWeight:'bold' }}>
                         <p>Friday, 27 October 2023</p>
                     </div>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <div className='class-discussion'>
                         <img className='images-discussion' src="/src/assets/class-1.jpeg" alt="discussion-img" />
                         <p>Discussion</p>
                     </div>
+                    </Link>
                 </div>
                 <div className='class-item'>
                     <Link to="/student/assignment/view" style={{ textDecoration: 'none', color:'black'}}>
@@ -50,10 +56,12 @@ function Content(){
                     <div className='class-deadline' style={{ flex:'2', fontWeight:'bold' }}>
                         <p>Friday, 27 October 2023</p>
                     </div>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <div className='class-discussion'>
                         <img className='images-discussion' src="/src/assets/class-1.jpeg" alt="discussion-img" />
                         <p>Discussion</p>
                     </div>
+                    </Link>
                 </div>
                 <div className='class-item'>
                     <Link to="/student/assignment/view" style={{ textDecoration: 'none', color:'black'}}>
@@ -70,10 +78,12 @@ function Content(){
                     <div className='class-deadline' style={{ flex:'2', fontWeight:'bold' }}>
                         <p>Friday, 27 October 2023</p>
                     </div>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <div className='class-discussion'>
                         <img className='images-discussion' src="/src/assets/class-1.jpeg" alt="discussion-img" />
                         <p>Discussion</p>
                     </div>
+                    </Link>
                 </div>
                 <div className='class-item'>
                     <Link to="/student/assignment/view" style={{ textDecoration: 'none', color:'black'}}>
@@ -90,10 +100,12 @@ function Content(){
                     <div className='class-deadline' style={{ flex:'2', fontWeight:'bold' }}>
                         <p>Friday, 27 October 2023</p>
                     </div>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <div className='class-discussion'>
                         <img className='images-discussion' src="/src/assets/class-1.jpeg" alt="discussion-img" />
                         <p>Discussion</p>
                     </div>
+                    </Link>
                 </div>
                 <div className='class-item'>
                     <Link to="/student/assignment/view" style={{ textDecoration: 'none', color:'black'}}>
@@ -110,10 +122,12 @@ function Content(){
                     <div className='class-deadline' style={{ flex:'2', fontWeight:'bold' }}>
                         <p>Friday, 27 October 2023</p>
                     </div>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <div className='class-discussion'>
                         <img className='images-discussion' src="/src/assets/class-1.jpeg" alt="discussion-img" />
                         <p>Discussion</p>
                     </div>
+                    </Link>
                 </div>
                 <div className='class-item'>
                     <Link to="/student/assignment/view" style={{ textDecoration: 'none', color:'black'}}>
@@ -130,10 +144,12 @@ function Content(){
                     <div className='class-deadline' style={{ flex:'2', fontWeight:'bold' }}>
                         <p>Friday, 27 October 2023</p>
                     </div>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <div className='class-discussion'>
                         <img className='images-discussion' src="/src/assets/class-1.jpeg" alt="discussion-img" />
                         <p>Discussion</p>
                     </div>
+                    </Link>
                 </div>
             </div>
         </div>

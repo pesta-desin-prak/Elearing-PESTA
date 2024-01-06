@@ -22,6 +22,10 @@ function Content(){
             )}
         </div>
 
+        <nav>
+        <Link to = "/teacher">Dashboard</Link>
+        </nav>
+
         <div className='class-detail'>
             <div className='class-header'>Assignment Detail</div>
             <div className='class-list'>
@@ -40,10 +44,12 @@ function Content(){
                     <div className='class-deadline' style={{ flex:'2', fontWeight:'bold' }}>
                         <p>Friday, 27 October 2023</p>
                     </div>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <div className='class-discussion'>
                         <img className='images-discussion' src="/src/assets/class-1.jpeg" alt="discussion-img" />
                         <p>Discussion</p>
                     </div>
+                    </Link>
                 </div>
                 <div className='class-item'>
                     <Link to="/assignment/view-assignment" style={{ textDecoration: 'none', color:'black'}}>
@@ -64,6 +70,7 @@ function Content(){
                         <img className='images-discussion' src="/src/assets/class-1.jpeg" alt="discussion-img" />
                         <p>Discussion</p>
                     </div>
+                    
                 </div>
                 <div className='class-item'>
                     <Link to="/assignment/view-assignment" style={{ textDecoration: 'none', color:'black'}}>

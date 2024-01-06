@@ -8,6 +8,7 @@ function Content(){
     <div className='content-container'>
       <h1 className='page-title' style={{ color:'#058ED9' }}>Dashboard</h1>
 
+
       <div className='content-layout'>
         <div className='content-layout-1'>
           <div className='recently'>
@@ -39,8 +40,10 @@ function Content(){
                 <div className='news-item'>
                   <img className='image-news' src='/src/assets/class-1.jpeg' alt='news-image' />
                   <div style={{ flex:'3', marginLeft:'20px', marginRight:'5px' }} className='news-text'>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <h3>Project UTS Biology</h3>
                     <p>Bu Siti: Pengumuman untuk Kelas Biology XI MIPA 6 ...</p>
+                  </Link>
                   </div>
                   <div className='news-info'>
                     <p>Tuesday, 24 October 2023</p>
@@ -52,8 +55,10 @@ function Content(){
                 <div className='news-item'>
                   <img className='image-news' src='/src/assets/class-1.jpeg' alt='news-image' />
                   <div style={{ flex:'3', marginLeft:'20px', marginRight:'5px' }} className='news-text'>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <h3>Project UTS Biology</h3>
                     <p>Bu Siti: Pengumuman untuk Kelas Biology XI MIPA 6 ...</p>
+                  </Link>
                   </div>
                   <div className='news-info'>
                     <p>Tuesday, 24 October 2023</p>
@@ -65,8 +70,10 @@ function Content(){
                 <div className='news-item'>
                   <img className='image-news' src='/src/assets/class-1.jpeg' alt='news-image' />
                   <div style={{ flex:'3', marginLeft:'20px', marginRight:'5px' }} className='news-text'>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <h3>Project UTS Biology</h3>
                     <p>Bu Siti: Pengumuman untuk Kelas Biology XI MIPA 6 ...</p>
+                  </Link>
                   </div>
                   <div className='news-info'>
                     <p>Tuesday, 24 October 2023</p>
@@ -78,8 +85,10 @@ function Content(){
                 <div className='news-item'>
                   <img className='image-news' src='/src/assets/class-1.jpeg' alt='news-image' />
                   <div style={{ flex:'3', marginLeft:'20px', marginRight:'5px' }} className='news-text'>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <h3>Project UTS Biology</h3>
                     <p>Bu Siti: Pengumuman untuk Kelas Biology XI MIPA 6 ...</p>
+                  </Link>
                   </div>
                   <div className='news-info'>
                     <p>Tuesday, 24 October 2023</p>
@@ -91,8 +100,10 @@ function Content(){
                 <div className='news-item'>
                   <img className='image-news' src='/src/assets/class-1.jpeg' alt='news-image' />
                   <div style={{ flex:'3', marginLeft:'20px', marginRight:'5px' }} className='news-text'>
+                    <Link to = "/discussion" style={{ textDecoration:'none', color:'black' }}>
                     <h3>Project UTS Biology</h3>
                     <p>Bu Siti: Pengumuman untuk Kelas Biology XI MIPA 6 ...</p>
+                  </Link>
                   </div>
                   <div className='news-info'>
                     <p>Tuesday, 24 October 2023</p>

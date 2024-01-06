@@ -200,6 +200,17 @@ body {
     margin-bottom: 8px;
 }
 
+nav {
+    display: flex;
+  }
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #cccccc;
+    font-weight: lighter;
+  }
+
 
 .navbar {
     width: 15px; 

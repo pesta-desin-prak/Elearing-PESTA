@@ -52,6 +52,12 @@ function Content(){
                     <div className='title-class'>
                         <h1 style={{ color:'#058ED9' }}>Add Material</h1>
                     </div>
+
+                    <nav>
+                    <Link to = "/teacher">Dashboard</Link>
+                    <Link to = "/assignment">Mathematics</Link>
+                    </nav>
+
                     <form action=''>
                     <div className='add-assignment-material-container'>
                         <div className='add-assignment-material-header'>Material Detail</div>
@@ -64,11 +70,6 @@ function Content(){
                             </div>
                             <div className='add-assignment-material-text'>
                                 <div className='add-assignment-material-text-header'>Online Text</div>
-                                <div className='add-assignment-material-text-detail'>
-                                    <div className='online-text-1'>A</div>
-                                    <div className='online-text-2'>B</div>
-                                    <div className='online-text-3'>C</div>
-                                </div>
                                 <div className='online-text'>
                                     <textarea name="" id="" placeholder='Text Here...'></textarea>
                                 </div>

@@ -17,3 +17,28 @@
 .view-detail-student{
     margin-bottom: 75px;
 }
+
+.assignment-buttons{
+    display: flex;
+    justify-content: center;
+}
+.assignment-button{
+    text-align: center;
+    cursor: pointer;
+    margin: 15px;
+    width: 80px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.20);
+    background-color: #058ED9;
+}
+
+@media (max-width: 1000px) {
+    .add-assignment-material-file-student{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}

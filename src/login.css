@@ -1,0 +1,108 @@
+/* File src/App.css */
+
+.login-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url('assets/img-1.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+  
+.login-container {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0px 0px 20px 0px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.login-body {
+    margin: 65px 110px 40px 110px
+}
+
+.login-header {
+    background-color: #FF8E3C;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.login-container h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 45px;
+}
+
+.image-selection {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 20px;
+    
+}
+
+.image-selection label {
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.image-selection label:hover {
+    border-color: #3498db; /* Ganti warna sesuai preferensi Anda */
+  }
+  
+.image-selection img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+  
+.image-selection input[type="radio"] {
+    display: none;
+}
+  
+.image-selection input[type="radio"]:checked + img {
+    border-color: #3498db;
+}
+
+.image-selection img:hover {
+    transform: scale(1.1); /* Efek scaling pada hover, bisa disesuaikan */
+  }
+  
+  /* File src/App.css */
+  
+h1 {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 20px;
+    font-size: 25px;
+}
+  
+Link {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+Link:hover {
+    text-decoration: underline;
+}
+  

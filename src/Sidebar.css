@@ -1,0 +1,298 @@
+.Sidebar {
+    background-color: #fffffe;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    left: -300px; /* Adjust width of the sidebar */
+    top: 0;
+    width: 300px; /* Adjust width of the sidebar */
+    height: 100%;
+    transition: left 1s;
+  }
+  
+  .Sidebar.open {
+      left: 0;
+    }
+  
+  
+    .scrollable-content {
+      max-height: 100vh; /* Maximum height to the viewport height */
+      overflow-y: auto; /* Enable vertical scrolling */
+    }
+    
+  .Sidebar .side-slide-bar-wrapper {
+    background-color: #fffffe;
+    overflow: visible;
+    width: 300px;
+  }
+  
+  .Sidebar .side-slide-bar {
+    position: relative;
+    width: 330px;
+    height: 980px;
+    left: -26px;
+  }
+  
+  .Sidebar .overlap {
+    position: relative;
+    width: 326px;
+    height: 980px;
+  }
+  
+  .Sidebar .background {
+    position: absolute;
+    width: 300px;
+    height: 980px;
+    top: 0;
+    left: 26px;
+  }
+  
+  .Sidebar .class-list {
+    position: absolute;
+    width: 286px;
+    height: 285px;
+    top: 529px;
+    left: 0;
+  }
+  
+  .Sidebar .overlap-group-wrapper {
+    top: 225px;
+    position: absolute;
+    width: 288px;
+    height: 60px;
+    left: 0;
+  }
+  
+  .Sidebar .overlap-group {
+    position: relative;
+    width: 286px;
+    height: 60px;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .Sidebar .text-wrapper {
+    position: absolute;
+    width: 144px;
+    top: 20px;
+    left: 96px;
+    font-family: "Istok Web-Bold", Helvetica;
+    font-weight: 700;
+    color: #058ed9;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .Sidebar .img {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0;
+    left: 26px;
+    object-fit: cover;
+  }
+  
+  .Sidebar .overlap-wrapper {
+    top: 150px;
+    position: absolute;
+    width: 288px;
+    height: 60px;
+    left: 0;
+  }
+  
+  .Sidebar .div {
+    position: relative;
+    width: 286px;
+    height: 60px;
+    border-radius: 20px;
+  }
+  
+  .Sidebar .rectangle {
+    position: absolute;
+    width: 286px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .Sidebar .div-wrapper {
+    top: 75px;
+    position: absolute;
+    width: 288px;
+    height: 60px;
+    left: 0;
+  }
+  
+  .Sidebar .class-list-2 {
+    top: 0;
+    position: absolute;
+    width: 288px;
+    height: 60px;
+    left: 0;
+  }
+  
+  .Sidebar .text-wrapper-2 {
+    position: absolute;
+    width: 144px;
+    top: 19px;
+    left: 96px;
+    font-family: "Istok Web-Bold", Helvetica;
+    font-weight: 700;
+    color: #058ed9;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .Sidebar .line {
+    top: 504px;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 26px;
+    object-fit: cover;
+  }
+  
+  .Sidebar .line-2 {
+    top: 429px;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 26px;
+    object-fit: cover;
+  }
+  
+  .Sidebar .text-wrapper-3 {
+    position: absolute;
+    width: 111px;
+    top: 448px;
+    left: 120px;
+    text-shadow: 1px 1px 0px #00000040;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff8e3c;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .Sidebar .menu-list {
+    position: absolute;
+    width: 286px;
+    height: 283px;
+    top: 96px;
+    left: 0;
+  }
+  
+  .Sidebar .menu-list-2 {
+    height: 60px;
+    top: 223px;
+    position: absolute;
+    width: 288px;
+    left: 0;
+  }
+  
+  .Sidebar .group {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 18px;
+    left: 44px;
+  }
+  
+  .Sidebar .menu-list-3 {
+    height: 60px;
+    top: 148px;
+    position: absolute;
+    width: 288px;
+    left: 0;
+  }
+  
+  .Sidebar .messages-icon {
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    top: 20px;
+    left: 44px;
+  }
+  
+  .Sidebar .menu-list-4 {
+    height: 60px;
+    top: 73px;
+    position: absolute;
+    width: 288px;
+    left: 0;
+  }
+  
+  .Sidebar .person-icon {
+    position: absolute;
+    width: 23px;
+    height: 24px;
+    top: 18px;
+    left: 44px;
+  }
+  
+  .Sidebar .menu-list-5 {
+    height: 58px;
+    top: 0;
+    position: absolute;
+    width: 288px;
+    left: 0;
+  }
+  
+  .Sidebar .overlap-2 {
+    position: relative;
+    width: 286px;
+    height: 58px;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+  .Sidebar .dashboad-icon {
+    position: absolute;
+    width: 24px;
+    height: 22px;
+    top: 18px;
+    left: 44px;
+  }
+  
+  .Sidebar .line-3 {
+    top: 71px;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    left: 26px;
+    object-fit: cover;
+  }
+  
+  .Sidebar .menu-2 {
+    position: absolute;
+    width: 81px;
+    top: 19px;
+    left: 135px;
+    text-shadow: 1px 1px 0px #00000040;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ff8e3c;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .Sidebar .menu-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 26px;
+    left: 262px;
+  }

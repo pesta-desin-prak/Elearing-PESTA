@@ -54,6 +54,11 @@ function Content(){
                         <h1 style={{ color:'#058ED9' }}><Link to='/student' style={{ textDecoration:'none', color:'#058ED9' }}>Project UTS Math</Link></h1>
                     </div>
 
+                    <nav>
+                    <Link to = "/student">Dashboard</Link>
+                    <Link to = "/student/assignment">Mathematics</Link>
+                    </nav>
+
                     <div className='view-description'>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
@@ -89,7 +94,19 @@ function Content(){
                             <input id="fileInput" type="file"  onChange={handleFileInputChange}/>
                         </div>
                     </div>
+                    <div className='assignment-buttons'>
+                        <Link to="/student/assignment/view/detail">
+                            <button className='assignment-button'>
+                                Save
+                            </button>
+                        </Link>
 
+                        <Link to="/student/assignment/view/detail">
+                            <button className='assignment-button'>
+                                Cancel
+                            </button>
+                        </Link>
+                    </div>                
                 </div>
 
             </div>
